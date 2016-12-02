@@ -47,6 +47,8 @@ body
 	font-weight: 300;
 	color: #999;
 	background: #FFF;
+	margin: 0;
+	padding: 0;
 
 	text-rendering: optimizeLegibility;
 	vertical-align: baseline;
@@ -162,7 +164,7 @@ h1, h2, h3
 
 		.arrow-white:after
 		{
-			border-color: #FFF rgba(255,255,255,0) rgba(255,255,255,0) rgba(255,255,255,0); /** Using RGB to remove dark line in Firefox **/
+			border-color: #91A883 rgba(255,255,255,0) rgba(255,255,255,0) rgba(255,255,255,0); /** Using RGB to remove dark line in Firefox **/
 		}
 
 		.arrow-theme:after
@@ -202,6 +204,21 @@ h1, h2, h3
 #topcontainer
 {
 
+}
+
+#fork
+{
+	background:url(../images/bg.png);
+	background-attachement: fixed;
+	background-repeat:no-repeat;
+	background-size: cover;
+	background-position:center bottom;
+	min-height: 78vh;
+	/*-webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);*/
 }
 
 	#topcontainer h1
