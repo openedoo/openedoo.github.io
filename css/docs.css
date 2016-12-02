@@ -62,7 +62,7 @@ html {
 
     .tm-middle,
     .tm-section,
-    .tm-footer { padding: 90px 0; }
+    .tm-footer { padding: 50px 0; }
 
 }
 
@@ -253,8 +253,8 @@ html {
 .tm-footer .uk-subnav-line > li:before { border-color: #ddd; }
 
 .tm-footer,
-.tm-footer a { color: #ddd !important; }
-.tm-footer a:hover { color: #fff !important; }
+.tm-footer a { color: #333 !important; }
+.tm-footer a:hover { color: #3f3f3f !important; }
 
 
 /* UIkit component modifiers
