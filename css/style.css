@@ -607,8 +607,17 @@ h1, h2, h3
 }
 
 .button1 {
-    background-color: #D98735;
+    background: #D98735;
     color: white;
     font-size: 24px;
     padding: 14px 40px;
+    border: none;
+    margin: 2px;
+    border-radius: 0px;
+    text-shadow: none;
+}
+
+a.button1:hover{
+     background: #d47f29;
+     color: white;
 }
